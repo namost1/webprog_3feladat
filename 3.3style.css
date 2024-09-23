@@ -1,0 +1,58 @@
+#all{
+    background-color: bisque;
+    margin: 0;
+}
+
+#bigContent{
+    height: 500px;
+    width: 500px;
+}
+
+#smallContent{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lightblue{
+    background-color: cyan;
+    width: 100%;
+    height: 50px;
+}
+
+.yellow{
+    background-color: orange;
+    width: 15%;
+}
+
+.red{
+    background-color: red;
+    width: 60%;
+}
+
+.purple{
+    background-color: purple;
+    width: 15%;
+}
+
+.black{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 10%;
+    top: 500px;
+}
+
+.darkblue{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+}
+
+.red:hover .black{
+    position: relative;
+    transform: translateX(170px) translateY(-300px);
+}
