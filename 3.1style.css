@@ -1,0 +1,38 @@
+body {
+    height: 500px; 
+    margin: 80px;
+    margin-top: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #6a006a;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.box {
+    width: 140px;
+    height: 40px;
+    background-color: #00eaff;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    height: 450px; 
+    width: 100%;
+}
+
+.left {
+    width: 70%;
+    background-color: #faff00;
+}
+
+.right {
+    width: 30%;
+    background-color: #008000;
+}
+
+
